@@ -106,26 +106,32 @@ img{
 /*====================*/
 
 .header-section{
+      background: #202020;
+    padding-bottom: 70px;
 
 }
+/*=======
 .container{
   max-width: 1250px;
     width: 100%;
     margin: auto;
     overflow: hidden;
 }  
+====*/
 .header-left-section{
     width: 70%;
     float: left;
+    background: #0c0707;
 }
 .navigationbar{
-
+  padding-left: 70px;
 }
 .logo_section{
 float: left;
 }
 .logo_section img{
-
+    width: 100px;
+    height: 50px;
 }
 .social_icon{
       float: right;
@@ -136,29 +142,38 @@ float: left;
 
 }
 .social_icon ul li{
-
+display: inline-block;
+    margin: 10px 20px;
 }
 .social_icon ul li a{
 
 }
 
 .banner-text-area{
-
+display: block;
+    padding-top: 150px;
+    padding-bottom: 90px;
 }
 .banner-text-area h1{
-
+  font-size: 25px;
+    color: #fff;
+    padding-bottom: 10px;
 }
 .banner-text-area h4{
-
+  font-size: 15px;
+    color: #fff;
+    padding-bottom: 10px;
 }
 .banner-text-area p{
-
+    font-size: 12px;
+    color: #fff;
+    padding-bottom: 10px;
 }
 .header-right-section{
     float: right;
     width: 30%;
 }
 .header-right-section img{
-
+    height: 374px;
 }
 

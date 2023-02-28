@@ -1,8 +1,8 @@
 body {
-  margin: 0;
   padding: 0;
-  top:0 !important;
-  font-size: 16px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -105,6 +105,60 @@ img{
 
 /*====================*/
 
+.header-section{
 
+}
+.container{
+  max-width: 1250px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}  
+.header-left-section{
+    width: 70%;
+    float: left;
+}
+.navigationbar{
 
+}
+.logo_section{
+float: left;
+}
+.logo_section img{
+
+}
+.social_icon{
+      float: right;
+    overflow: hidden;
+}
+
+.social_icon ul{
+
+}
+.social_icon ul li{
+
+}
+.social_icon ul li a{
+
+}
+
+.banner-text-area{
+
+}
+.banner-text-area h1{
+
+}
+.banner-text-area h4{
+
+}
+.banner-text-area p{
+
+}
+.header-right-section{
+    float: right;
+    width: 30%;
+}
+.header-right-section img{
+
+}
 

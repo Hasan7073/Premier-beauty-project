@@ -107,7 +107,6 @@ img{
 
 .header-section{
       background: #202020;
-    padding-bottom: 70px;
 
 }
 /*=======
@@ -127,22 +126,24 @@ img{
   padding-left: 70px;
 }
 .logo_section{
-float: left;
+    float: left;
+    width: 50%;
 }
 .logo_section img{
     width: 100px;
     height: 50px;
+    padding-top: 5px;
 }
 .social_icon{
-      float: right;
-    overflow: hidden;
+     float: left;
+    width: 50%;
 }
 
 .social_icon ul{
-
+    float: right;
 }
 .social_icon ul li{
-display: inline-block;
+    display: inline-block;
     margin: 10px 15px;
 }
 
@@ -155,35 +156,51 @@ transition: 0.6s;
   color: #B79D4E;
 }
 
-
-
+/* banner area*/
 .banner-text-area{
-display: block;
-    padding-top: 150px;
-    padding-bottom: 75px;
+     padding-top: 74px;
+    padding-bottom: 105px;
 }
 .banner-text-area h1{
-  font-size: 25px;
-    color: #fff;
-    padding-bottom: 10px;
+  width: 658px;
+height: 56px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 56px;
+
+color: #FFFFFF;
 }
+
 .banner-text-area h4{
-  font-size: 15px;
-    color: #fff;
-    padding-bottom: 10px;
+  width: 658px;
+height: 23px;
+padding-top: 8px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
 }
 .banner-text-area p{
- font-size: 12px;
-    color: #c9c0c0;
-    padding-bottom: 10px;
-    width: 550px;
-    line-height: 15px;
+    width: 666px;
+    height: 75px;
+    padding-top: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
 }
 .header-right-section{
-    float: right;
+    float: left;
     width: 30%;
 }
 .header-right-section img{
-    height: 374px;
 }
 

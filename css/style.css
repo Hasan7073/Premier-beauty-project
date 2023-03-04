@@ -129,6 +129,7 @@ img{
     height: 50px;
     padding-top: 5px;
 }
+/*===Social Section======*/
 .social_icon{
      float: left;
     width: 50%;
@@ -227,6 +228,7 @@ font-family: 'Raleway';
     color: #202020;
     padding-bottom: 32px;
 }
+/*====premier Section======*/
 .premier_image {
   width: 50%;
   float: left;
@@ -264,4 +266,118 @@ font-family: 'Raleway';
   border-radius: 8px;
   padding: 15px 24px;
   display: inline-block;
+}
+/*====About Section======*/
+
+/*====Course Section======*/
+.course-section{
+   
+}
+.course-container{
+    overflow: hidden;
+    background: #f9f9f9;
+    padding-bottom: 70px;
+}
+.course-left-section{
+float: left;
+width: 50%;
+}
+.course-left-section img{
+width: 708px;
+height: 401px;
+left: 0px;
+top: 1238px;
+background: url(Bonny-5.png);
+border-radius: 0px 8px 8px 0px;
+}
+.course-right-section{
+float: left;
+width: 50%;
+}
+
+.course-right-area{
+      padding-left: 24px;
+    padding-right: 72px;
+}
+.course-hadding{
+width: 636px;
+height: 27px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+padding-bottom: 10px;
+color: #C8AA54;
+}
+
+.course-right-section h1{
+    width: 530px;
+    height: 112px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #202020;
+    padding-bottom: 20px;
+}
+.course-free-tag{
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.free-tag-left-section{
+    float: left;
+    width: 50%;
+}
+.free-tag-left-section p{
+font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    color: #202020;
+}
+.free-tag-left-section p span{
+
+}
+.free-tag-right-section{
+float: left;
+    width: 50%;
+}
+.free-tag-right-section p{
+font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    color: #202020;
+}
+.free-tag-right-section p span{
+
+}
+.course-right-section a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #202020;
+    background: #C8AA54;
+    border-radius: 8px;
+    padding: 15px 15px;
+    display: inline-block;
+}
+.Various-kit{
+
+}
+.Various-kit p{
+  padding-top: 8px;
+width: 535px;
+height: 19px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #202020;
 }

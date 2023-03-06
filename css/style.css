@@ -384,8 +384,9 @@ color: #202020;
 /*====Course Section end======*/
 /*====Fundamental-section======*/
 .Fundamental-section{
-  overflow: hidden;
-background: #FDF7F5;
+    overflow: hidden;
+    background: #FDF7F5;
+    padding-bottom: 56px;
 }
 .Fundamental-container{
 padding: 20px 72px;
@@ -441,7 +442,6 @@ width: 225px;
 .Fundamentals-right-area{
    overflow: hidden;
     background: #FDF7F5;
-    padding-bottom: 70px;
 }
 .Fundamentals-right-container{
  padding-left: 24px;

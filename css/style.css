@@ -508,3 +508,55 @@ padding-right: 8px;
 }
 
 ./*====Fundamental-right-area end======*/
+
+.Contact-section{
+}
+.Contact-container{
+    overflow: hidden;
+    background: #C8AA54;
+    display: block;
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+.Contact-area{
+    padding: 0px 184px;
+    margin-bottom: 40px;
+}
+.Contact-area h1{
+    width: 1076px;
+    height: 60px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 64px;
+}
+.button-area{
+text-align: center;
+    padding-top: 40px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 24px;
+    gap: 8px;
+    width: 139px;
+    background: #202020;
+    border-radius: 8px;
+    flex-grow: 0;
+    display: b;
+    display: inline-block;
+}
+.button-area a{
+font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #C8AA54;
+}

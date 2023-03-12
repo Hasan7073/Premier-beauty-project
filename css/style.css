@@ -106,7 +106,6 @@ img{
 /*====================*/
 
 .header-section{
-      background: #202020;
       overflow: hidden;
 
 }
@@ -121,18 +120,18 @@ img{
   overflow: hidden;
 }
 .logo_section{
-    float: left;
-    width: 50%;
+width: 50%;
+float: left;
 }
 .logo_section img{
-    width: 100px;
-    height: 50px;
-    padding-top: 5px;
+    padding-left: 70px;
+  padding-top: 20px;
 }
 /*===Social Section======*/
 .social_icon{
      float: left;
     width: 50%;
+    padding-top: 25px;
     overflow: hidden;
 }
 
@@ -155,50 +154,47 @@ transition: 0.6s;
 
 /* banner area*/
 .banner-text-area{
-     padding-top: 74px;
-    padding-bottom: 105px;
+    display: inline-block;
+    color: white;
+    padding-top: 75px;
+    padding-left: 72px;
+    padding-bottom: 40px;
 }
 .banner-text-area h1{
-  width: 658px;
-height: 56px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 56px;
-
-color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 }
 
 .banner-text-area h4{
-  width: 658px;
-height: 23px;
-padding-top: 8px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 23px;
-
-color: #FFFFFF;
+      font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding-top: 24px;
 }
 .banner-text-area p{
-    width: 666px;
-    height: 75px;
-    padding-top: 24px;
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 38px;
     color: #FFFFFF;
 }
+
 .header-right-section{
-    float: left;
+    float:right;
     width: 30%;
 }
 .header-right-section img{
+  width: 100%;
 }
 
 
@@ -413,15 +409,14 @@ padding: 20px 72px;
     padding-bottom: 24px;
 }
 .Fundamentals-left-area p{
-width: 550px;
-    height: 35px;
-    font-family: 'Raleway';
+font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 23px;
-    padding-bottom: 53px;
+    line-height: 24px;
     color: #54595F;
+    margin-bottom: 8px;
+}
 }
 .Fundamentals-left-area p span{
 font-weight: bold;
@@ -431,9 +426,9 @@ font-weight: bold;
 
 }
 .Fundamentals-logo img{
-width: 225px;
-    height: 229px;
-    padding: 40px 40px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
 }
 /*====Fundamental-left-area end======*/
 
@@ -507,55 +502,143 @@ padding-right: 8px;
   display: inline-block;
 }
 
-./*====Fundamental-right-area end======*/
+/*====Fundamental-right-area end======*/
+/*====contact css======*/
 
-.Contact-section{
+.contact{
+  background: #C8AA54;
+  width: 100%;
+  }
+.contact_area{
+padding: 64px 184px;
+text-align: center;
 }
-.Contact-container{
-    overflow: hidden;
-    background: #C8AA54;
-    display: block;
-    text-align: center;
-    padding-bottom: 64px;
+.contact_area h1{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+color: #FFFFFF;
+padding-bottom: 40px;
 }
-
-.Contact-area{
-    padding: 0px 184px;
-    margin-bottom: 40px;
+.contact_area a{
+background: #202020;
+border-radius: 8px;
+padding: 15px 24px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #C8AA54;
 }
-.Contact-area h1{
-    height: 60px;
+.contact_area a i{
+  padding-right: 5px;
+}
+/* End Contact Section Css */
+/* Start Subcription Section Css */
+.subscription{
+  background: #FFF;
+}
+.subscription_content{
+padding-top: 64px;
+    padding-bottom: 72px;
+    padding-left: 182px;
+    padding-right: 182px;
+}
+.subscription_area{
     font-family: 'Raleway';
     font-style: normal;
+}
+.subscription_area p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #C8AA54;
+}
+.subscription_area h1{
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
     text-align: center;
-    color: #FFFFFF;
-    padding-top: 64px;
+    color: #202020;
+    padding-bottom: 8px;
 }
-.button-area{
-text-align: center;
-    padding-top: 40px;
-    padding-bottom: 64px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 15px 24px;
-    gap: 8px;
-    width: 139px;
-    background: #202020;
-    border-radius: 8px;
-    flex-grow: 0;
-    display: b;
-    display: inline-block;
-}
-.button-area a{
-font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 26px;
+.subscription_area p span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
     text-align: center;
-    color: #C8AA54;
+    color: #54595F;
+
 }
+.sub_form{
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 32px;
+    padding: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+
+}
+.single_input input {
+    padding: 14px 16px;
+    border: 1px solid #EFF0F2;
+    border-radius: 8px 0px 0px 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #54595F;
+    width: 75%;
+    float: left;
+}
+.single_input button {
+    padding: 16px 32px;
+    background: #C8AA54;
+    border-radius: 0px 8px 8px 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+/* End Subcription Section Css */
+/* Start Footer Section Css */
+.footer{
+  background: #000;
+  max-width: 1440px;
+  width: 100%;
+}
+.footer_area{
+    padding: 56px 182px;    
+    font-family: 'Raleway';
+    font-style: normal;
+    text-align: center;
+
+}
+.footer_area p{
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #C8AA54;
+padding-top: 24px;
+
+}
+.footer_area p span{
+  font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #C8AA54;
+
+}
+
+/* End Footer Section Css */
